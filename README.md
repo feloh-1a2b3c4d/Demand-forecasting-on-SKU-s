@@ -2,11 +2,11 @@
 Jupyter Notebook IDE on forecasting the SKU's demand.
 SKU Demand Forecasting & Risk Analysis
 
-Project Overview
+# Project Overview
 
 The goal of this project is to forecast and analyze SKU demand by combining machine learning and statistical methods. The objective is to comprehend the major variables affecting demand and develop predictive models to enhance supply chain and inventory decisions.
 
-Core Objective
+# Core Objective
 
 1. Understand market dynamics and identify demand drivers.
 a) Total sales by country
@@ -20,7 +20,7 @@ f) Visualise seasonality (monthly & weekly patterns)
 Forecast 10 SKUs with different demand profiles.
 
 
-Dataset Description
+# Dataset Description
 
 This dataset contains more than 1,100,000 rows of highly realistic FMCG sales data
 generated for professional demand planning, forecasting, and supply chain analytics.
@@ -37,7 +37,7 @@ g) ABC/XYZ segmentation
 h) Lead time variability
 i) Stockouts & safety stock parameters
 
-Tools & Technologies
+# Tools & Technologies
 > Used Python Libraries such as:
 
 - Pandas & NumPy for Data manipulation and arithmetic operation.
@@ -45,7 +45,7 @@ Tools & Technologies
 - Scikit-learn for a supervised-model algorithm on training set and prediction on test data in Machine Learning algorithms. 
 - Statsmodels for carrying out OLS and regression analysis on significance test of estimators.
 
-Research Methodology
+# Research Methodology
 
 STEP 1. Data Preprocessing
 - Data import into Python IDE (Jupyter Notebook)
@@ -70,11 +70,11 @@ STEP 4. Model Evaluation
 - P-value
 - T-Statistic value.
 
-Key Insights
---> Demand shows patterns influenced by time and external factors
---> weekofyear, weekday, is_holiday, temperature, rain_mm, stock_on_hand, lead_tim_days, supplier_id, purchase_cost, margin_pct; tend to have a less significant effect on the unit sold.
---> promo_flag, discount_pct, list_price, and units_sold variables have strong correlation with units sold
---> Multinational FMCG company faces a high demand volatility using the XYZ Segmentation in the SKU'S. 
+# Key Insights
+- Demand shows patterns influenced by time and external factors
+- weekofyear, weekday, is_holiday, temperature, rain_mm, stock_on_hand, lead_tim_days, supplier_id, purchase_cost, margin_pct; tend to have a less significant effect on the unit sold.
+- promo_flag, discount_pct, list_price, and units_sold variables have strong correlation with units sold
+- Multinational FMCG company faces a high demand volatility using the XYZ Segmentation in the SKU'S. 
 
 
 Clone the repository:
